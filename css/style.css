@@ -4,6 +4,7 @@
     --purple: 121214;
     --purple1:#29d9d5;
     --pink:#16a3a3;
+    --poppins: 'Poppins', sans-serif;
     --gradient:linear-gradient(90deg, var(--purple1), var(--pink));
 }
 
@@ -80,6 +81,7 @@ header{
 
 header .logo{
     font-size: 2rem;
+    font-weight: 600;
     color:var(--purple);
 }
 
@@ -132,8 +134,15 @@ header label{
     }
 }
 
+.home .content {
+    padding: 0;
+    margin: 0;
+}
 .home .content h3{
-    font-size: 5.5rem;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
     color:#333;
     text-transform: uppercase;
 }
