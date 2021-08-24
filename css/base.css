@@ -94,13 +94,13 @@ header .navbar a{
     color:var(--purple);
 }
 
-.mynewnav{
+/* .mynewnav{
     display: flex;
     justify-content: space-around;
-}
+} */
 
 .navlink{
-    /* display: inline; */
+    display: inline-block;
     position: relative;
     margin-left: 10px;
     margin-right: 10px;
@@ -124,6 +124,7 @@ header .navbar a{
 .navlink:hover:after{
     width: 100%;
 }
+
 header input{
     display: none;
 }
@@ -608,13 +609,14 @@ header label{
         opacity: 1;
     }
 
-    .mynewnav{
+    /* .mynewnav{
         flex-direction: column;
     }
-
+*/
     .navlink{
-        display: inline-block;
-    }
+        display: block;
+    
+    } 
 
     header .navbar{
         position: absolute;
