@@ -28,10 +28,11 @@ html{
 }
 
 body{
-    background:#f9f9f9;
+    background:#b38f8f;
 }
 
 section{
+    min-height: 50vh;
     padding:0 9%;
     padding-top: 7.5rem;
     padding-bottom: 2rem;
